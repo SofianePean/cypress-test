@@ -1,5 +1,8 @@
-describe('template spec', () => {
-  it('passes', () => {
-    cy.visit('https://example.cypress.io')
-  })
-})
+export {};
+describe("My First Test", () => {
+  it("Visits the Kitchen Sink", () => {
+    cy.visit("https://example.cypress.io");
+
+    cy.contains("xhr");
+  });
+});
